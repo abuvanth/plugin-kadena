@@ -1,33 +1,33 @@
-# @elizaos/plugin-movement
+# @elizaos/plugin-kadena
 
-Movement Network plugin for Eliza OS. This plugin enables Movement Network blockchain functionality for your Eliza agent.
+Kadena plugin for Eliza OS. This plugin enables kadena blockchain functionality for your Eliza agent.
 
 ## Features
 
-- Send MOVE tokens
+- Send KADENA tokens
 - Check wallet balances
-- Support for Movement Network transactions
+- SWAP tokens in dex
 
 ## Installation
 
 ```bash
-pnpm add @elizaos/plugin-movement
+pnpm add @elizaos/plugin-kadena
 ```
 
 ## Instructions
 
-1. First, ensure you have a Movement Network wallet and private key.
+1. First, ensure you have a kadena wallet and private key.
 
-2. Add the Movement plugin to your character's configuration:
+2. Add the kadena plugin to your character's configuration:
 
 ```json
 {
-"name": "Movement Agent",
-"plugins": ["@elizaos/plugin-movement"],
+"name": "kadena Agent",
+"plugins": ["@elizaos/plugin-kadena"],
 "settings": {
 "secrets": {
-"MOVEMENT_PRIVATE_KEY": "your_private_key_here",
-"MOVEMENT_NETWORK": "bardock"
+"KADENA_SECRET_KEY": "your_secret_key_here",
+"KADENA_NETWORK": "mainnet01"
 }
 }
 }
@@ -36,8 +36,8 @@ pnpm add @elizaos/plugin-movement
 Set up your environment variables in the `.env` file:
 
 ```bash
-MOVEMENT_PRIVATE_KEY=your_private_key_here
-MOVEMENT_NETWORK=bardock
+KADENA_SECRET_KEY=your_secret_key_here
+KADENA_NETWORK=mainnet01
 ```
 
 
