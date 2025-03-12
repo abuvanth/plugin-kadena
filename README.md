@@ -8,6 +8,37 @@ Kadena plugin for Eliza OS. This plugin enables kadena blockchain functionality 
 - Check wallet balances
 - SWAP tokens in dex
 
+### check balance
+
+prompt: check my kda balance
+
+
+
+prompt: check free.cyberfly_token balance
+
+
+### transfer KDA
+
+
+prompt: send 1 kda to k:walletaddress from chain 1
+
+
+### transfer crosschain
+
+
+prompt: send 1 kda to k:walletaddress from chain 1 to chain 2
+
+
+### swap 
+
+
+prompt: swap 1 kda to free.cyberfly_token on kdswap
+
+
+
+prompt: swap 1 kda to free.cyberfly_token on mercatus
+
+
 ## Installation
 
 ```bash
